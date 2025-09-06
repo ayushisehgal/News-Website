@@ -1,0 +1,67 @@
+
+body {
+    background-image: url("./uploads/WhatsApp\ Image\ 2024-10-12\ at\ 23.18.58_90978a0b.jpg");
+    background-size: 100% 100vh; /* Set the background image to 100% width and 100vh height */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: #b1aeae;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 30px;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.signup-form input[type="text"], .signup-form input[type="email"], .signup-form input[type="password"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.signup-form button[type="submit"], .signup-form button[type="button"] {
+    width: 100%;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.signup-form button[type="submit"]:hover, .signup-form button[type="button"]:hover {
+    background-color: #3e8e41;
+}
+
+#signin a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.signup-form button[type="button"] {
+    margin-top: 20px;
+}
